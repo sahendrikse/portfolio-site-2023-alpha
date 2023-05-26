@@ -1,0 +1,42 @@
+/* Nav */
+
+.nav__container {
+  display:flex;
+  position: absolute;
+  right:-50px;
+  top:368px;
+  transform: rotate(90deg);
+  z-index:2;
+  text-align:center;
+}
+
+.nav__button {
+  margin-right:65px;
+  font-family:"Fjalla One","Lucida Console", "Courier New", monospace;
+  color: rgba(255, 255, 255, 0.75);
+  font-size:30px;
+  letter-spacing:0.25em;
+  position:relative;
+  transition: top .5s ease,opacity .5s ease, color .5s ease;
+}
+
+.nav__button:hover {
+  color: rgb(195, 9, 40);
+}
+
+.nav__button:after {
+  transition: opacity .3s ease,transform .3s ease,visibility .3s ease;  
+}
+
+.nav--card {
+	color:blue;
+	width: 300px;
+	height: 300px;
+}
+
+/* Overrides */
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}

@@ -1,0 +1,20 @@
+/* Footer */
+
+.social__bar {
+ 
+}
+
+.ico {
+
+  transition: top .5s ease,opacity .5s ease, color .5s ease;
+  cursor:pointer;
+}
+
+
+.ico:hover {
+	color: #c30928;
+}
+
+.ico:after {
+   transition: opacity .3s ease,transform .3s ease,visibility .3s ease;  
+}

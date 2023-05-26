@@ -1,0 +1,183 @@
+
+/* Cover */
+.cover {
+    display: block;
+    background-color: #111517;
+    background-position: 50%;
+    background-size: cover;
+	overflow: hidden;
+	
+}
+
+.cover__hero {
+	
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+
+
+  min-height: 560px;
+}
+
+
+.cover__hero .hero__item--right {
+   padding-top: 4.125rem;
+   padding-left: 5.125rem;
+}
+
+.hero__item--left {
+	order:0;
+    flex: 0; 
+	font-family:"Fjalla One","Lucida Console", "Courier New", monospace;
+	font-size: 50px;
+	letter-spacing: 1rem;
+     color: rgba(255, 255, 255, 0.9);
+   transform: rotate(180deg);
+     writing-mode: vertical-lr;
+     text-align: center;
+    padding-right:4.5rem;
+	padding-bottom:160px;
+	align-self: center;
+}
+
+.cover__hero .hero__item {
+    width: 100%;
+    z-index: 1;
+}
+
+.hero__title {
+	font-weight: 700;
+    font-size: 48px;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0
+}
+
+.hero__subtitle {
+	font-weight: 300;
+	font-family: "Open Sans", sans serif;
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.9);
+	line-height: 1.4;
+	 letter-spacing: 1px;
+}
+
+.cover__hero .hero__sep {
+	
+    margin: 1.875rem;
+	margin-left:0;
+}
+
+.sep--primary {
+    background-color: #ef0d33;
+}
+
+.sep {
+	width: 200px;
+    height: 4px;
+}
+
+.project--sep {
+	display:flex;
+	padding-left: 15.125rem;
+}
+
+.item--sep {
+	margin-left:20px;
+}
+
+/* Project Cards */
+
+
+.status-text {
+	font-family:"Fjalla One","Lucida Console", "Courier New", monospace;
+	letter-spacing:0.3em;
+	transform: rotate(180deg);
+    writing-mode: vertical-lr;
+	
+	height:100%;
+	position:absolute;
+	text-align:center;
+	top:0;
+	left:10px;
+	
+}
+
+.card-icon {
+	position: absolute;
+	top:57px;
+	right:20px;
+	
+}
+
+.version-text {
+	font-family:"Fjalla One","Lucida Console", "Courier New", monospace;
+	letter-spacing:0.3em;
+	position: absolute;
+	 top:10px;
+	 right:20px;
+}
+
+.year-text {
+	order:1;
+	font-family:"Fjalla One","Lucida Console", "Courier New", monospace;
+	letter-spacing:0.1em;
+	position: absolute;
+	top:35px;
+	right:20px;
+}
+
+.updated-text {
+	font-family:"Fjalla One","Lucida Console", "Courier New", monospace;
+	letter-spacing:0.1em;
+	position: absolute;
+	bottom:35px;
+	right:20px;
+}
+
+.project-type-1 {
+	font-family:"Fjalla One","Lucida Console", "Courier New", monospace;
+	letter-spacing:0.1em;
+	position: absolute;
+	bottom:10px;
+	right:20px;
+}
+
+.project-heading {
+	font-family:"Lucida Console", "Courier New", monospace;
+	letter-spacing:0.2em;
+	font-weight: bold;
+	font-size:16px;
+	  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+      -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+      box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.project-desc {
+	font-family:"Courier New", monospace;
+	font-size:12px;
+}
+
+.project--div{
+	width:60px;
+	margin-left:0;
+	border: 2px solid white;
+}
+
+.card{
+	display:flex;
+	flex-direction:column;
+}
+
+
+/* Selection Overrides */
+
+::selection {
+  background: #c30928; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #c30928; /* Gecko Browsers */
+}
